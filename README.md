@@ -23,3 +23,11 @@ It focuses on understanding pricing behavior, volume distribution, and cross-poo
 ## Notes & Limitations
 - Liquidity metrics were excluded due to ambiguity in Uniswap v3 active liquidity interpretation.
 - Analysis focuses on executed swaps only.
+
+## SQL Query
+
+The full SQL query used for this analysis is available in this repository:
+
+- [`sql/uniswap_v3_multi_pool_analysis.sql`](./sql/uniswap_v3_multi_pool_analysis.sql)
+
+This query aggregates Uniswap v3 swap data across all pools containing the token of interest and produces both pool-level and global metrics.
