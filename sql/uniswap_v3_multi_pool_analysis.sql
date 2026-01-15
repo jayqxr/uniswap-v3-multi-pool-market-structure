@@ -7,7 +7,7 @@ pool_created AS (
         evt_block_time, 
         contract_address AS pool_contract, 
         token0, 
-        token1, 
+        token1,
         fee AS swap_fee,
         tickSpacing,
         pool AS pool_address
